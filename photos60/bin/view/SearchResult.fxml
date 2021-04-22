@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchResultController">
+   <children>
+      <AnchorPane layoutY="-4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="723.0" prefWidth="954.0">
+         <children>
+            <Label layoutX="389.0" layoutY="76.0" text="Search Result">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="817.0" layoutY="34.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="83.0" text="Quit" />
+            <Button layoutX="441.0" layoutY="662.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="246.0" text="Create Album from search" />
+            <Button layoutX="843.0" layoutY="662.0" mnemonicParsing="false" text="Logout" />
+            <Button layoutX="723.0" layoutY="662.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="83.0" text="Close" />
+            <ScrollPane layoutX="26.0" layoutY="136.0" prefHeight="502.0" prefWidth="904.0">
+               <content>
+                  <GridPane alignment="CENTER" prefHeight="502.0" prefWidth="903.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../Downloads/Default_Image_Thumbnail%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../Downloads/Default_Image_Thumbnail%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../Downloads/Default_Image_Thumbnail%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../Downloads/Default_Image_Thumbnail%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../Downloads/Default_Image_Thumbnail%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="412.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../Downloads/Default_Image_Thumbnail%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

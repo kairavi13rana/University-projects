@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SlideshowController">
+   <children>
+      <AnchorPane layoutX="-32.0" layoutY="-19.0" prefHeight="789.0" prefWidth="1113.0">
+         <children>
+            <Button fx:id="btnBack" layoutX="63.0" layoutY="44.0" mnemonicParsing="false" onAction="#goBack" prefHeight="31.0" prefWidth="81.0" text="Back" />
+            <Button fx:id="btnLogout" layoutX="1003.0" layoutY="707.0" mnemonicParsing="false" onAction="#doLogout" text="Logout" />
+            <Label layoutX="478.0" layoutY="59.0" text="Slideshow">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Text fx:id="labCaption" layoutX="115.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption:" />
+            <Text fx:id="labDate" layoutX="116.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:" />
+            <Text fx:id="labTagName" layoutX="114.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tag's Name:" />
+            <Text fx:id="labTagValue" layoutX="114.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tag's Value:" />
+            <ImageView fx:id="imageView" fitHeight="490.0" fitWidth="577.0" layoutX="478.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="btnNext" layoutX="853.0" layoutY="648.0" mnemonicParsing="false" onAction="#onNext" text="Next" />
+            <Button fx:id="btnPrev" layoutX="643.0" layoutY="648.0" mnemonicParsing="false" onAction="#onPrev" text="Previous" />
+            <Button fx:id="btnTag" layoutX="111.0" layoutY="442.0" mnemonicParsing="false" onAction="#onEditTag" text="Edit Tag" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

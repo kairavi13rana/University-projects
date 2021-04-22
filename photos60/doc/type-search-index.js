@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"controller","l":"AlbumDisplayController"},{"l":"All Classes","u":"allclasses-index.html"},{"p":"model","l":"Photo"},{"p":"model","l":"PhotoAlbum"},{"p":"main","l":"Photos"},{"p":"model","l":"Tag"},{"p":"model","l":"User"}];updateSearchResults();
